@@ -6,16 +6,11 @@
   Licence: see LICENCE file for details.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ include file="/userLogic.inc.jsp" %>
 <html>
   <head>
     <title>Dynamic Website</title>
-    <link rel="stylesheet" href="/static/css/lxui.min.css">
-    <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
-    <!--[if lt IE 9]>
-    <script src="/static/js/html5shiv.min.js"></script>
-    <![endif]-->
-    <script src="/static/js/jquery-1.10.2.js"></script>
-    <script src="/static/js/lxui.min.js"></script>
+    <%@include file="/head.inc.jsp" %>
   </head>
   <body>
     <%@include file="/banner.inc.jsp" %>
