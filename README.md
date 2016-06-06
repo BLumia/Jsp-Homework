@@ -2,6 +2,31 @@
 
 小组成员请在讨论组内告知github id以便成为contributer。
 
+## 文件说明
+
+### 结构
+
+1. index.jsp 和 login.jsp为两个可访问的页面文件
+2. 以inc.jsp 结尾的文件为某个组件  
+  - banner.inc.jsp 为导航条
+  - sidebar.inc.jsp 为左侧侧边栏
+  - userLogic.inc.jsp 为用户登陆逻辑
+  - content.jsp 为主页的内容，登陆前提示登陆，登陆后显示饼图
+3. doLogin.jsp 和 doLogout.jsp 为登陆表单提交位置和登出页面
+
+### 注释
+
+由于作业要求逐句注释................
+html的注释方法为 
+``` html
+  <!-- 文字 --> 
+```
+jsp和js的注释方法为
+``` javascript
+  /*文字*/
+  // 文字
+```
+
 ## 帮助
 
 ### 注册GitHub账号
