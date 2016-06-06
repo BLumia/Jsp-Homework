@@ -33,7 +33,9 @@ jsp和js的注释方法为
 
 如果你之前从来没有使用过github，请先注册，以便成为contributer。
 如果你看不懂英文，不知道应该怎样注册，请参见 [这里](http://jingyan.baidu.com/article/455a9950abe0ada167277864.html) 。
-注册完毕后在讨论组告知你的ID即可。
+注册完毕后在讨论组告知你的ID，然后等待邀请。
+邀请发出后会在讨论组内告知，然后在[这个页面](https://github.com/BLumia/Jsp-Homework/invitations)点击绿色大按钮即可完成邀请成为contributer。（如果邀请还没有发出，你会看到404 Not Found页面）
+然后你就可以开始编辑啦～
 
 ### 编辑文件
 
