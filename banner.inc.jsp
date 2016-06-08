@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                <table border="0"><!--边框没有 -->
+                <table border="0"><!--表格无边框（用于logo和文字的左右布局） -->
                     <tbody><tr><td><i style="font-size: 3em; padding-right:5px;" class="fa fa-copy"></i></td>
                         <td>
                             <a href="index.jsp"><h2 style="color: #CCC;">标题</h2></a>
@@ -19,16 +19,17 @@
                     <%
                         if (hasLoggedin) {
                             out.print("<b>Welcome, "+username+" !</b>"); %>
-                            <div style="padding:5px 0px;"><a href="/doLogout.jsp">退出登陆</a></div><!--如果已经登陆则提示退出登陆的链接-->
+                            <div style="padding:5px 0px;"><a href="./doLogout.jsp">退出登陆</a></div><!--如果已经登陆则提示退出登陆的链接-->
                         <% } else { %>
-                            <div style="padding:5px 0px;"><a href="/login.jsp">登陆账号</a></div><!--如果没有则提示登陆的链接-->
+                            <div style="padding:5px 0px;"><a href="./login.jsp">登陆账号</a></div><!--如果没有则提示登陆的链接-->
                     <%  } %>
                     <%--
+                    课程没有提到所以不使用taglib
                     <c:if test="${sessionScope.hasLoggedIn}">
                         <div style="padding:5px 0px;"><a href="/login.jsp">${sessionScope.username} jerk</a></div>
                     </c:if><!--账号-->
                     <c:if test="${!sessionScope.hasLoggedIn}">
-                        <div style="padding:5px 0px;"><a href="/login.jsp">Go login your fucking account</a></div><!--密码-->
+                        <div style="padding:5px 0px;"><a href="/login.jsp">Go login your f**king account</a></div><!--密码-->
                     </c:if>
                     --%>
                 </div>
