@@ -6,7 +6,7 @@
 --%>
 <%--运用类和层编辑主题的颜色--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>//引入java语言
-<div class="panel-group" id="accordion">//设置饼图，名为accordion
+<div class="panel-group" id="accordion">//插入div，引用panel-group类，设置饼图，名为accordion
   <div class="panel panel-warning panel-theme1">//设置饼图的主题
     <div class="panel-heading">//设置饼图的标题
       <h4 class="panel-title">//设置饼图的文本
@@ -18,10 +18,10 @@
     <div id="collapseOne" class="panel-collapse collapse in">
       <div class="list-group" style="text-align: center; margin-bottom: 0px;">//设置饼图的尺寸
         <a href="#" onclick="$('#nav-bg').css('background-color','yellow');" class="list-group-item">//发生事件的行为是点击
-          <h4 class="list-group-item-heading"><i class="fa fa-info-circle"></i>
+          <h4 class="list-group-item-heading"><i class="fa fa-info-circle"></i>//标题字体大小为h4，引用class后的类
             纯洁黄</h4>//设置饼图的颜色
         </a>
-        <a href="#" onclick="$('#nav-bg').css('background-color','orange');" class="list-group-item">
+        <a href="#" onclick="$('#nav-bg').css('background-color','orange');" class="list-group-item">//引入一个空链接，用css插入背景颜色
           <h4 class="list-group-item-heading"><i class="fa fa-info-circle"></i>
             吉祥橙</h4>//设置颜色
         </a>
