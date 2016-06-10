@@ -13,7 +13,7 @@
 
   if (session.getAttribute("username")!=null) {         //从session中查找是否存在一个用户名
     hasLoggedin = true;//如果存在
-    username = (String)session.getAttribute("username");   //给username赋值
+    username = (String)session.getAttribute("username");  //给username赋值
   }
 
 %>
