@@ -4,8 +4,8 @@
   Date: 16-6-4
   Time: 下午9:23
 --%>
+<%--运用类和层编辑主题的颜色--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <div class="panel-group" id="accordion">
   <div class="panel panel-warning panel-theme1">
     <div class="panel-heading">
@@ -17,7 +17,7 @@
     </div>
     <div id="collapseOne" class="panel-collapse collapse in">
       <div class="list-group" style="text-align: center; margin-bottom: 0px;">
-        <a href="#" onclick="$('#nav-bg').css('background-color','yellow');" class="list-group-item">
+        <a href="#" onclick="$('#nav-bg').css('background-color','yellow');" class="list-group-item">//发生事件的行为是点击
           <h4 class="list-group-item-heading"><i class="fa fa-info-circle"></i>
             纯洁黄</h4>
         </a>
