@@ -5,15 +5,15 @@
   Time: 下午1:20
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>  <%--引入Java语言--%>
 
 <%
   boolean hasLoggedin = false;   //标记是否登录
   String username = "blumia";    //声明一个变量
 
   if (session.getAttribute("username")!=null) {         //从session中查找是否存在一个用户名
-    hasLoggedin = true;//如果存在
-    username = (String)session.getAttribute("username");  //给username赋值
+    hasLoggedin = true;    //如果存在
+    username = (String)session.getAttribute("username");    //给username赋值
   }
 
 %>
