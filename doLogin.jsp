@@ -5,12 +5,12 @@
   Time: 下午1:21
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import="java.util.*" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>    <%--引用Java语言--%>
+<%@ page import="java.util.*" %>  <%--引用Java包--%>
 <%
 //定义一个保存用户列表的二维组
     String[][] users = {{"admin","letmein"},{"中文用户名","password"}};
-    boolean flag = false;                                                     //登录状态
+    boolean flag = false;                                                      //声明登录状态
     request.setCharacterEncoding("UTF-8");                                    //设置编码
     String username = request.getParameter("username");                       //获取用户名
     String password = request.getParameter("password");                       //获取密码
