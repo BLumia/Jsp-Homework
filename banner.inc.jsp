@@ -26,7 +26,7 @@
                     <%--
                     课程没有提到所以不使用taglib
                     <c:if test="${sessionScope.hasLoggedIn}">
-                        <div style="padding:5px 0px;"><a href="/login.jsp">${sessionScope.username} jerk</a></div>
+                        <div style="padding:5px 0px;"><a href="/login.jsp">${sessionScope.username} jerk</a></div>。//设置账号登录的用户名
                     </c:if><!--账号-->
                     <c:if test="${!sessionScope.hasLoggedIn}">
                         <div style="padding:5px 0px;"><a href="/login.jsp">Go login your f**king account</a></div><!--密码-->
