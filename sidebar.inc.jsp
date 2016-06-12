@@ -5,46 +5,46 @@
   Time: 下午9:23
 --%>
 <%--运用类和层编辑主题的颜色--%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>//引入java语言
-<div class="panel-group" id="accordion">//插入div，引用panel-group类，设置饼图，名为accordion
-  <div class="panel panel-warning panel-theme1">//设置饼图的主题
-    <div class="panel-heading">//设置饼图的标题
-      <h4 class="panel-title">//设置饼图的文本
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">//设置主题
+<%@ page contentType="text/html;charset=UTF-8" language="java" %><%--声明使用java--%>
+<div class="panel-group" id="accordion"><%--插入div，引用panel-group类--%>
+  <div class="panel panel-warning panel-theme1"><%--第一个折叠栏--%>
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><%--折叠栏标题--%>
           吉翔主题？
         </a>
       </h4>
     </div>
     <div id="collapseOne" class="panel-collapse collapse in">
-      <div class="list-group" style="text-align: center; margin-bottom: 0px;">//设置饼图的尺寸
-        <a href="#" onclick="$('#nav-bg').css('background-color','yellow');" class="list-group-item">//发生事件的行为是点击
-          <h4 class="list-group-item-heading"><i class="fa fa-info-circle"></i>//标题字体大小为h4，引用class后的类
-            纯洁黄</h4>//设置饼图的颜色
+      <div class="list-group" style="text-align: center; margin-bottom: 0px;">
+        <a href="#" onclick="$('#nav-bg').css('background-color','yellow');" class="list-group-item"><%--点击时更改标题栏颜色--%>
+          <h4 class="list-group-item-heading"><i class="fa fa-info-circle"></i><%--主题样式按钮--%>
+            纯洁黄</h4>
         </a>
-        <a href="#" onclick="$('#nav-bg').css('background-color','orange');" class="list-group-item">//引入一个空链接，用css插入背景颜色
+        <a href="#" onclick="$('#nav-bg').css('background-color','orange');" class="list-group-item"><%--点击时更改标题栏颜色--%>
           <h4 class="list-group-item-heading"><i class="fa fa-info-circle"></i>
-            吉祥橙</h4>//设置颜色
+            吉祥橙</h4>
         </a>
       </div>
     </div>
-  </div>
-  <div class="panel panel-warning panel-theme1">
-    <div class="panel-heading">//设置标题
-      <h4 class="panel-title">//设置文本
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">//设置颜色
+  </div><%--第一个折叠栏结束，注释下同--%>
+  <div class="panel panel-warning panel-theme1"><%--第二个折叠栏--%>
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><%--折叠栏标题--%>
           蓝黑主题？
         </a>
       </h4>
     </div>
     <div id="collapseTwo" class="panel-collapse collapse">
-      <div class="list-group" style="text-align: center; margin-bottom: 0px;">//zz设置尺寸
+      <div class="list-group" style="text-align: center; margin-bottom: 0px;">
         <a href="#" onclick="$('#nav-bg').css('background-color','blue');" class="list-group-item">
           <h4 class="list-group-item-heading"><i class="fa fa-info-circle"></i>
-            泳池蓝</h4>//设置颜色
+            泳池蓝</h4>
         </a>
         <a href="#" onclick="$('#nav-bg').css('background-color','black');" class="list-group-item">
           <h4 class="list-group-item-heading"><i class="fa fa-info-circle"></i>
-            高级黑</h4>//设置颜色
+            高级黑</h4>
         </a>
       </div>
     </div>
@@ -53,7 +53,7 @@
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-          红绿主题？//设置主题颜色
+          红绿主题？
         </a>
       </h4>
     </div>
@@ -61,11 +61,11 @@
       <div class="list-group" style="text-align: center; margin-bottom: 0px;">
         <a href="#" onclick="$('#nav-bg').css('background-color','green');" class="list-group-item">
           <h4 class="list-group-item-heading"><i class="fa fa-info-circle"></i>
-            帽子绿</h4>//设置颜色
+            帽子绿</h4>
         </a>
         <a href="#" onclick="$('#nav-bg').css('background-color','red');" class="list-group-item">
           <h4 class="list-group-item-heading"><i class="fa fa-info-circle"></i>
-            一抹红</h4>//设置颜色
+            一抹红</h4>
         </a>
       </div>
     </div>
