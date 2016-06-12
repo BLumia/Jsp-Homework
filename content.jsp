@@ -57,5 +57,5 @@
   });
 </script>
 <% } else { %>
-<div class="alert alert-info" role="alert">登陆以查看饼图</div>//利用登录页面登录后查看饼图
+<div class="alert alert-info" role="alert">登陆以查看饼图</div><!--利用登录页面登录后查看饼图-->
 <% } %>
