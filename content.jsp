@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%--制作饼图--%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %><--%使用Java语言--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %><%--使用Java语言--%>
 <% if (hasLoggedin) { %>
 <div id="container">如果你看不到饼图，说明你浏览器版本太低了。我们推荐chrome和firefox</div>
 <script>//用饼图来显示浏览器所占的比例
